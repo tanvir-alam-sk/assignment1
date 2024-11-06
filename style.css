@@ -1286,9 +1286,6 @@ h2 {
 
 .review-card {
   flex: 0 0 auto;
-  width: calc(50% - 8px);
-  min-width: 300px;
-  padding: 24px;
   border-radius: 12px;
   border: 1px solid rgb(229, 231, 235);
   scroll-snap-align: start;
@@ -1333,7 +1330,7 @@ h2 {
   font-size: 14px;
   border: 1px solid black;
   padding: 10px 18px;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
 .see-all-review span {
@@ -1778,7 +1775,9 @@ h2 {
     animation: pulse 2s infinite;
   }
 
-
+  .see-all-review{
+    border-radius: 40px;
+  }
 
   /* important info section  */
   .info-container {
@@ -1802,7 +1801,6 @@ h2 {
 
   .see-all-review {
     display: block;
-    width: 100%;
     padding: 8px 18px;
     text-align: center;
   }
