@@ -22,7 +22,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone [https://github.com/your-username/css-only-carousel.git](https://github.com/tanvir-alam-sk/assignment1)
+git clone [https://github.com/tanvir-alam-sk/assignment1]
 Navigate to the project folder:
 
 bash
