@@ -21,7 +21,7 @@ Installation
 Clone the repository:
 
 bash
-Copy code-> git clone [https://github.com/tanvir-alam-sk/assignment1]
+Copy code->[git clone https://github.com/tanvir-alam-sk/assignment1]
 
 Navigate to the project folder:
 
