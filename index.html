@@ -36,16 +36,51 @@
             <div class="gallery-left">
                 <img src="https://cdn.pixabay.com/photo/2021/09/15/21/29/lake-6627781_640.jpg" alt="Main view">
             </div>
-            <div class="gallery-right">
-                <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Interior view 1">
-                <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="Interior view 2">
+            <div class="gallery-right slider-container">
+                <div class="slides" style="counter-reset: slider;">
 
-                <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
-                    alt="Interior view 2">
-                <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
-                    alt="Interior view 1">
+                    <div id="slide1" class="slide">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Interior view 1">
+                        </div>
+                    </div>
+
+                    <div id="slide2" class="slide">
+                        <div class="slide-content">
+                            <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="Interior view 2">
+                        </div>
+                    </div>
+
+                    <div id="slide3" class="slide">
+                        <div class="slide-content">
+                            <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdXNlJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="Interior view 2">
+                        </div>
+                    </div>
+                    <div id="slide4" class="slide">
+                        <div class="slide-content">
+                            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                alt="Interior view 1">
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- Navigation Dots -->
+                <div class="slider-nav">
+                    <a href="#slide1"></a>
+                    <a href="#slide2"></a>
+                    <a href="#slide3"></a>
+                    <a href="#slide4"></a>
+                </div>
+
+                <!-- Arrow Navigation -->
+                <!-- <a href="#slide1" class="slide-arrow prev">‹</a>
+                <a href="#slide4" class="slide-arrow next">›</a> -->
             </div>
         </div>
 
@@ -599,7 +634,7 @@
                     </div>
                 </div>
                 <!-- mobile device -->
-                 <div class="refund-secton-mobile">
+                <div class="refund-secton-mobile">
                     <div class="refund-labels">
                         <span>Full refund</span>
                         <span>No refund</span>
@@ -607,18 +642,18 @@
                     <div class="progress-line">
                         <div class="line"></div>
                         <div class="progress-points">
-                          <div class="point active"></div>
-                          <div class="point"></div>
-                          <div class="point"></div>
+                            <div class="point active"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
                         </div>
-                      </div>
-                      <div class="timeline">
+                    </div>
+                    <div class="timeline">
                         <span class="label">Today</span>
                         <span class="label">Nov 4</span>
                         <span class="label">Check-in</span>
                     </div>
-                 </div>
-                    
+                </div>
+
                 <!--  -->
                 <div class="refund-policy">
                     <div class="policy before">
@@ -754,10 +789,13 @@
                     </div>
                 </div>
             </div>
+            <!--  -->
+
+            <!--  -->
             <div class="review-right">
                 <h2 class="reviews-title">Recent reviews</h2>
 
-                <div class="reviews-scroll">
+                <!-- <div class="reviews-scroll">
                     <div class="review-card">
                         <div class="review-rating">10/10 Excellent</div>
                         <p class="review-text">A very cozy home for the two of us in a quiet area NW of town.
@@ -775,13 +813,69 @@
                         <div class="review-author">Cindy B.</div>
                         <div class="review-date">Sep 23, 2024</div>
                     </div>
-                </div>
+                </div> -->
+
+                <!-- review screoll -->
+                <div class="slider-container">
+                    <div class="slides reviews-scroll" style="counter-reset: slider;">
+                      <div id="slide1" class="slide">
+                        <div class="slide-content">
+                            <div class="review-card">
+                                <div class="review-rating">10/10 Excellent</div>
+                                <p class="review-text">The cottage was just as the pictures and description stated. Nice
+                                    quiet area and great view of the cove.</p>
+                                <a href="#" class="read-more">Read more</a>
+                                <div class="review-author">Cindy B.</div>
+                                <div class="review-date">Sep 23, 2024</div>
+                            </div>
+                        </div>
+                      </div>
+                      <div id="slide2" class="slide">
+                        <div class="slide-content">
+                            <div class="review-card">
+                                <div class="review-rating">10/10 Excellent</div>
+                                <p class="review-text">The cottage was just as the pictures and description stated. Nice
+                                    quiet area and great view of the cove.</p>
+                                <a href="#" class="read-more">Read more</a>
+                                <div class="review-author">Cindy B.</div>
+                                <div class="review-date">Sep 23, 2024</div>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- <div id="slide3" class="slide">
+                        <div class="slide-content">
+                            <div class="review-card">
+                                <div class="review-rating">10/10 Excellent</div>
+                                <p class="review-text">The cottage was just as the pictures and description stated. Nice
+                                    quiet area and great view of the cove.</p>
+                                <a href="#" class="read-more">Read more</a>
+                                <div class="review-author">Cindy B.</div>
+                                <div class="review-date">Sep 23, 2024</div>
+                            </div>
+                        </div>
+                      </div>
+                      <div id="slide4" class="slide">
+                        <div class="slide-content">
+                            <div class="review-card">
+                                <div class="review-rating">10/10 Excellent</div>
+                                <p class="review-text">The cottage was just as the pictures and description stated. Nice
+                                    quiet area and great view of the cove.</p>
+                                <a href="#" class="read-more">Read more</a>
+                                <div class="review-author">Cindy B.</div>
+                                <div class="review-date">Sep 23, 2024</div>
+                            </div>
+                        </div>
+                      </div> -->
+                    </div>
+                <!-- review screoll -->
 
                 <a href="#" class="see-all-review">See all 24 reviews <span>&#x2192;</span></a>
             </div>
+          
         </div>
+       
         <!-- review Section end-->
-
+</div>
         <!-- Footer Section start -->
         <div class="footer-container">
             <div class="left-section">
@@ -803,7 +897,7 @@
             <h2>Send a message</h2>
             <a href="#" class="contact-button">Contact host</a>
         </div>
-        <!-- Footer Section start -->
+        <!-- Footer Section end -->
     </main>
 
     <br><br><br><br><br><br><br><br><br><br><br>
